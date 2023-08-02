@@ -1,0 +1,152 @@
+.header {
+    margin-top: 0;
+    height: 45vh;
+    width: 100%;
+    display: inline-block;
+    animation-name: appear;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.image {
+    display: grid;
+    float: left;
+    height: 25vh;
+    width: 25vw;
+    margin-left: 20%;
+    border-radius: 100%;
+    animation-name: appear2;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.personalpic {
+    margin-left: 15vw;
+    height: 25vh;
+    margin-top: 10%;
+    border-radius: 100%;
+}
+
+.name {
+    width: 300px;
+    margin-top: 1em;
+    margin-right: 25vw;
+    display: grid;
+    float: right;    
+    animation-name: appear2;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.usrname {
+    margin-top: 35%;
+    font-size: 100%;
+    font-family: monospace;
+    font-weight:900;
+    font-size: larger;
+}
+.data-list {
+    font-size: 80%;
+    font-family: monospace;
+    font-weight:100;
+}
+.credits {
+    position: static;
+    margin-top: 100px;
+    padding-left: 12px;
+    padding-right: 20px;
+    display: flex;
+    float: left;
+    width: 20%;
+    font-family: monospace;
+    font-size: small;
+    font-weight: 100;
+    animation-name: appear2;
+    animation-delay: 1.95s;
+    animation-duration: 4s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+a {
+    text-decoration: none;
+    text-shadow: 2px;
+}
+.list-item {
+    width: 500px;
+    display: flex ;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: right ;
+    font-weight: 100;
+}
+a :hover {
+    color: green;
+
+    transition-duration: .5s;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+/*  */
+.body {
+    width: 100%;
+    margin: 2px;
+    display: inline-block;
+}
+
+.list {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(120, 120, 120);
+    height: 150px;
+    padding-left: 12px;
+    display: grid;
+    float: left;
+    width: 20%;
+    font-family: monospace;
+    font-size: small;
+}
+
+ul {
+    font-weight: 100;
+}
+
+.body-type {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(120, 120, 120);
+    width: 950px;
+    margin-right: 40px;
+    padding-left: 10px;
+    display: grid;
+    float: right;
+    font-weight: 100;
+    font-size: medium;
+}
+.hdr {
+    font-size: x-large;
+    font-family: monospace;
+}
+.text {
+    font-family: monospace; 
+    font-weight: 100;
+    font-size: medium;
+}
+.footer {
+    margin-top:10px;
+    display:block;
+    font-family: monospace;
+}
+.blinker {
+    animation-name: blink;
+    animation-duration: .5s;
+animation-fill-mode: forwards;    animation-iteration-count: infinite;
+}
